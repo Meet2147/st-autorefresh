@@ -37,7 +37,7 @@ jobs:
 
     # Step 5: Build the package
     - name: Build the package
-      run: python -m build
+      run: python setup.py sdist bdist_wheel
 
     # Step 6: Publish to PyPI
     - name: Publish to PyPI
