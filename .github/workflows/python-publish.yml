@@ -27,7 +27,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install build twine
+        pip install build twine setuptools
 
     # Step 4: Lint and test (optional, replace with your test commands)
     - name: Run tests
